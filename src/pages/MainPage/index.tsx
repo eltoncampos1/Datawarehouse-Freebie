@@ -1,3 +1,4 @@
+import Button from "../../components/Button";
 import logoImg from "../../assets/Logo.png";
 import {
   Container,
@@ -7,7 +8,6 @@ import {
   NavTop,
   List,
   ListItem,
-  HeaderButton,
 } from "./styles";
 
 const MainPage = () => {
@@ -26,7 +26,7 @@ const MainPage = () => {
           </NavTop>
         </NavWrapper>
 
-        <HeaderButton>Request Demo</HeaderButton>
+        <Button>Request Demo</Button>
       </Header>
     </Container>
   );
