@@ -8,6 +8,7 @@ import {
   NavTop,
   List,
   ListItem,
+  MenuMobile,
 } from "./styles";
 
 const MainPage = () => {
@@ -25,7 +26,7 @@ const MainPage = () => {
             </List>
           </NavTop>
         </NavWrapper>
-
+        <MenuMobile />
         <Button>Request Demo</Button>
       </Header>
     </Container>

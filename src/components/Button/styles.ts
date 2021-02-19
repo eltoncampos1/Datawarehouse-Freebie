@@ -1,5 +1,6 @@
 import { shade } from 'polished';
 import styled from 'styled-components';
+import { media } from '../../utils/breakPoints';
 
 
 export const Container = styled.button`
@@ -16,5 +17,9 @@ export const Container = styled.button`
 
     &:hover {
         background: ${shade(0.15, '#fff')}
+    }
+    
+    ${media.mobile} {
+        display: none;
     }
 `
